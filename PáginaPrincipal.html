@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Página Principal</title>
+</head>
+<body style="background-color: rgb(0, 255, 191);"
+<body>
+
+
+<p></p>
+
+     <h1 id="inicio"> Tudo que você gostaria de saber sobre HTML</h1>
+    
+
+    <hr>
+
+    <ul>
+        <li> <a href="#como">Como nasceu o HTML?</a></li>
+        <li> <a href="#Qual">Qual a relevância do HTML?</a></li>
+        <li> <a href="#estrutura">Qual a estrutura básica do HTML?</a></li>
+        <li> <a href="#tags">O que são Tags, Elementos e Atributos?</a></li>
+        <li> <a href="#Refer">Referências</a></li>
+    </ul>
+
+    <h2 id="como"> Como nasceu o HTML?</h2> <small><a href="#inicio"><sup>(Voltar)</sup></a></small>
+
+    <p>
+        O HTML, ou HyperText Markup Language <mark>(Linguagem de Marcação de Hipertexto, em português)</mark>, foi desenvolvido por Tim Berners-Lee, um cientista da computação britânico, enquanto trabalhava no CERN <u><i>(Organização Europeia para a Pesquisa Nuclear)</i></u> no início da década de 1990. A ideia era criar um sistema de documentação que permitisse a interconexão de documentos científicos.
+<p></p>
+Em 1991, Berners-Lee propôs o conceito de um "espaço de informação" global baseado em hipertexto, que se tornou a base da World Wide Web. No mesmo ano, ele criou o primeiro navegador web chamado <strong>"WorldWideWeb"</strong> <i>(também conhecido como Nexus)</i>, que tinha a capacidade de visualizar páginas da web que eram formatadas usando a linguagem de marcação inicial que mais tarde se tornaria o HTML.
+
+<p></p>
+O HTML evoluiu ao longo do tempo com o envolvimento de várias pessoas e organizações, tornando-se uma parte fundamental da construção de páginas da web e da estrutura da World Wide Web. Desde então, o HTML passou por várias versões, cada uma introduzindo novos recursos e melhorias na linguagem. O desenvolvimento contínuo do HTML é supervisionado pelo <mark>World Wide Web Consortium (W3C)</mark> e pela Web Hypertext Application Technology Working Group (WHATWG).
+<p></p>
+    </p>
+
+    <h2 id="Qual">Qual a relevância do HTML?</h2> <small><a href="#inicio"><sup>(Voltar)</sup></a></small>
+    <p>O HTML (HyperText Markup Language) é fundamental para a criação e formatação de páginas web. Sua relevância é notável por várias razões:</p>
+    <P>                                                   <blockquote><strong>Estruturação de Conteúdo:</strong></blockquote>
+
+        O HTML fornece uma estrutura básica para o conteúdo de uma página web, definindo elementos como títulos, parágrafos, listas, links, imagens e outros componentes.</P>
+        <p>                                                <blockquote><strong>Interconexão de Documentos:</strong></blockquote>
+
+            Através de links, o HTML permite a interconexão de documentos, possibilitando a navegação entre diferentes páginas e recursos na web.</p>
+            <p>                                         <blockquote><strong>Compatibilidade com Navegadores:</strong></blockquote>
+
+                É uma linguagem padrão suportada por todos os principais navegadores, garantindo a consistência na exibição de conteúdo na web.</p>
+                <p>                                     <blockquote><strong>Base para Desenvolvimento Web:</strong></blockquote>
+
+                    O HTML é a base para o desenvolvimento web, muitas vezes combinado com CSS (Cascading Style Sheets) para estilos e JavaScript para interatividade.</p>
+                    <p>Acessibilidade:
+
+                        A marcação semântica no HTML ajuda na criação de conteúdo acessível, o que é crucial para garantir que pessoas com diferentes habilidades possam interagir com as páginas web.</p>
+
+
+<p>                                                     <blockquote><strong>SEO (Search Engine Optimization):</strong></blockquote>
+    
+
+    Motores de busca utilizam a estrutura HTML para entender e indexar o conteúdo das páginas web, influenciando diretamente nas classificações de busca.</p>
+    <p>                                                  <blockquote><strong> Desenvolvimento Responsivo:</strong></blockquote> 
+
+        O HTML5 introduziu recursos que facilitam a criação de páginas web responsivas, capazes de se adaptar a diferentes dispositivos e tamanhos de tela.</p>
+        <p>                                              <blockquote><strong> Padrões da Web:</strong></blockquote> 
+           
+
+            O HTML é desenvolvido e mantido por organizações como o World Wide Web Consortium (W3C) e a Web Hypertext Application Technology Working Group (WHATWG), o que contribui para a padronização e interoperabilidade na web.</p>
+
+<P> Em resumo, o HTML desempenha um papel central na construção da World Wide Web, proporcionando uma estrutura para a criação de documentos interativos e acessíveis. Sua importância é evidente na base de todos os desenvolvimentos web modernos.</P>
+
+<h2 id="estrutura">Qual a estrutura básica do HTML?</h2><small><a href="#inicio"><sup>(Voltar)</sup></a></small>
+
+
+<p> O documento HTML sempre inicia com o que chamamos de estrutura básica. Esta estrutura é quase que imutável. Sempre será dessa forma e você sempre, sempre começará seu HTML começando por esse código. Geralmente os editores como o Sublime Text já tem atalhos para iniciar os documentos HTMLs com essa estrutura, logo, você não precisa se preocupar em decorá-la, mas é bom que faça.</p> 
+<p>É possível compreender o documento em HTML de uma maneira muito simples, através de uma divisão de blocos das tags essenciais, conforme a a seguinte estrutura:
+
+    Definição do documento (doctype)
+    Cabeça (head)
+    Corpo (body)</p> 
+<P>Doctype - Definindo o documento
+    Uma coisa importante: SEMPRE deve existir o doctype, que é este código <!DOCTYPE html>.
+    
+    O doctype não é uma tag HTML, mas uma instrução para o navegador e outros programas que podem ler seu site, que o código encontrado ali é um código HTML. Assim eles sabem o que fazer para mostrar seu site da melhor forma possível. Lembre-se: o doctype é OBRIGATÓRIO e deve ser sempre a PRIMEIRA LINHA do seu documento.</P>
+    <p>HEAD
+        Contém informações que não são transpostas visivelmente para o usuário/leitor do documento. São dados implícitos, de uso e controle do documento: vinculação com outros arquivos, aplicação de lógica de programação de scripts e metadados. Na prática, todo o conteúdo do cabeçalho fica delimitado entre a abertura e fechamento tag head.</p>
+<p>BODY
+    Trata-se do documento em si, ou seja, a informação legível para o usuário/leitor do documento. É todo e qualquer texto que se deseja apresentar, assim como toda e qualquer forma de mídia de saída (imagens, sons, miniaplicativos embutidos, conteúdo multimídia, etc). Além disso, toda a apresentação de entrada de dados (formulários) também se aplica neste seção do documento. Na prática, o corpo do documento é delimitado pelo par de tags <body> e </body>.
+    
+    Este é o preceito básico que deve estar muito bem claro para você: onde as marcações se aplicam, e quais são os resultados deste modelo. Por exemplo: se vocês deseja informar conteúdo textual para saída legível ao usuário do seu sistema web, esta marcação deverá obrigatoriamente estar no bloco do corpo da página. Ainda: para definir qual o tipo de codificação da página (uma meta informação do documento), esta deve obrigatoriamente estar marcada no cabeçalho do mesmo documento.
+    
+    Dentro do elemento BODY sua estrutura de página terá os elementos semânticos da construção da sua página, onde serão declarados e identificados cabeçalhos, rodapé, conteúdo principal, etc.</p>
+
+<h2 id="tags">O que são Tags, Elementos e Atributos?</h2><small><a href="#inicio"><sup>(Voltar)</sup></a></small>
+
+
+<p>O que são Tags?
+    Tags são o conjunto de caracteres que formam um elemento, ou seja, quando nos referenciamos à Tag "p" estamos falando disso: <p>
+    
+    Existem dois tipos de Tags, as que necessitam de fechamento e as que não necessitam de fechamento.
+    
+    Para as que necessitam de fechamento, utilizamos o sinal de menor ( < ), seguido do nome do elemento e o sinal de maior ( > ) para abertura. Para fechamento, utilizamos o sinal de menor ( < ), seguido de barra ( / ), nome do elemento e o sinal de maior ( > ).
+    
+        <!-- Exemplo de elemento que necessita de fechamento -->
+        <p>A tag do elemento de parágrafo necessita de fechamento.</p>
+      
+    Os elementos que não necessitam de fechamento, também conhecidos como elementos vazios, somente utilizamos o sinal de menor ( < ), seguido do nome do elemento e o sinal de maior ( > ).
+    
+        <!-- Exemplo de elemento vazio -->
+        Texto utilizando<br>
+        quebra de linha</p>
+
+        <p>O que são Elementos?
+            Elementos são formados a partir de Tags e entre as Tags é que está o conteúdo do Elemento.
+            
+            Se quisermos exibir um parágrafo em um site utilizamos a Tag <p> que semanticamente quer dizer que o conteúdo que se espera nesse Elemento é um parágrafo.
+            
+            Alguns exemplos:
+            
+                <!-- A Tag <label> define que o conteúdo do Elemento é uma label (rótulo)  -->
+                <label>Informe o seu nome</label>
+              
+                <!-- A Tag <address> define que o conteúdo do Elemento é um endereço (endereços físicos à virtuais)  -->
+                <address>
+               
+                </address></p>
+                
+                <p>Não confunda Tags com Elementos
+                    As Tags servem para marcar onde começam e terminam os Elementos. Já os Elementos são uma parte conceitual/semântica que têm um começo e fim determinados.
+                    
+                    Parece uma diferença boba, mas mantenha ela sempre em mente e isso vai fazer toda a diferença no seu entendimento de HTML.</p>
+
+                    <p>O que são Atributos?
+                        Atributos são informações que passamos na Tag para que ela se comporte da maneira esperada. Existem atributos globais (que funcionam em todas as Tags) e específicos (que são direcionados para cada Tag, através de especificação).
+                        
+                        Os Atributos possuem nome e um valor, existem Atributos que você vai usar praticamente sempre e existem outros que serão mais raros.</p>
+                    
+<h2 id="Refer">Referências:</h2>  <small><a href="#inicio"><sup>(Voltar)</sup></a></small>
+
+<ol>
+<li><a href="https://www.youtube.com/watch?v=SV7TL0hxmIQ" target="_blank"> HTML para iniciantes - youtube</a></li>
+<p>     </p>
+<li><a href="https://www.youtube.com/watch?v=3oSIqIqzN3M" target="_blank"> 5 minutos de HTML - youtube</a></li>
+<p></p>
+<li><a href="https://tableless.github.io/iniciantes/manual/html/oquetags.html" target="_blank"> Getting Started </a></li>
+<p></p>
+<li><a href="http://tableless.com.br/contato">www.tableless.com.br</a></li>
+
+
+</ol>
+
+</body>
+</html>
